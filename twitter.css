@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.parent{
+width: 100%;
+height: 100vh;
+top: -3px;
+left: -7px;
+display:grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 50% 50%;
+
+}
+.child1{
+    height: 100%;
+    width: 50%; 
+    background-image:url("./logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.child2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+}
+.inner_child2{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.child3{
+    height: 100%;
+    width: 100%;
+
+}
+.maindiv1{
+    height: 100vh;
+    width: 100%;
+}
+.parent1{
+height:90%;
+width: 100%;
+}
+.parent2{
+    height: 10%;
+    width: 100%;
+}
+
+.inner_child2 > * {
+    width:fit-content;
+    /* border: 2px solid black; */
+    
+  }
+
+  .div2{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .div2> *{
+font-family: Roboto;
+font-size: 84px;
+font-weight: 1000;
+letter-spacing: 0em;
+text-align: left;
+user-select: none;
+color:black;
+  }
+  
+  .div3 >*{
+    font-family: Roboto;
+font-size: 42px;
+font-weight:bolder;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+/* margin-top:18px; */
+
+  }
+  .div4{
+    display: flex;
+    flex-direction: row;
+justify-content: left;
+font-weight:770;
+    word-spacing: 3px;
+    font-size: larger;
+    align-items: left;
+    margin-left: 3rem;
+  }
+ .innerdiv42{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .div4>*{
+    font-weight:770;
+    letter-spacing: 0.5px;
+    font-size: larger;
+    /* border: 2px solid green; */
+    
+ }
+.innerdiv41.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .innerdiv41:not(.signup){
+    justify-content: center;
+    display: flex;
+    text-align: center;
+} */
+.innerdiv41.signup{
+    padding: 10px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.333);
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+.innerdiv41.signup:last-child{
+    margin-bottom: 0;
+}
+
+.div7{
+    font-size: 14px;
+    font-weight: 600;
+    width: 373px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-top: 10px;
+}
+.div7 a{
+    text-decoration: none;
+}
+
+
+ .new, .div4{
+    display: flex;
+    flex-direction:column !important;
+    height: fit-content;
+    justify-content: center;
+    width: max-content;
+ }
+ .child3{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 0 100px;
+    
+ }
+ .space{
+    margin-bottom: 20px;
+ }
+ .child3 a{
+    text-decoration: none;
+    color: black;
+ }
+.signup:hover{
+    background-color: rgb(126, 126, 112);
+}
+
+/* signup */
+
+#form{
+    height: 750px;
+    width: 800px;
+    background-color:white;
+    border: 1px solid blue;
+    top: 50px;
+    left: 50%;
+
+}
+.formhead{
+    color: blue;
+}
+.innermain{
+    height: 80%;
+    width: 80%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.btn1{
+    height: auto;
+    width: 100%;
+}
+ 
+/* login form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .login-container {
+    height: 50vh;
+    width:30%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="tel"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #1da1f2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d8af2;
+  }
+  
+  .links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .links a {
+    margin-right: 10px;
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  #form >*{
+    display: flex;
+  }
+  #form img{
+    margin-left:50%;
+  }
+  .gap{
+    margin-left:2%;
+  }

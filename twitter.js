@@ -1,6 +1,6 @@
-// login form
+// for login
 document.getElementById('login-form').addEventListener('submit', function(e) {
-    // e.preventDefault(); 
+    e.preventDefault(); 
     var phone = document.getElementById('phone').value;
     var password = document.getElementById('password').value;
   
@@ -12,17 +12,22 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     document.getElementById('password').value = '';
   });
   
-  // signin form
-  document.getElementById('innermain').addEventListener('next', function(e) {
-    e.stopPropagation()
-    var name= document.getElementById('exampleInputname').value;
-    var ph_number = document.getElementById('exampleInputnumber').value;
+  // for signup
+
+  document.getElementById('next').addEventListener('next()', function(e) {
+    e.preventDefault(); 
+    var name = document.getElementById('name').value;
+    var ph = document.getElementById('phone').value;
+    var dob = document.getElementById('dob').value;
   
-    console.log('name:', name);
-    console.log('Phone Number:', ph_number);
+    console.log('Name:', name);
+    console.log('Phone Number:', phone);
+    console.log('Date of Birth:', dob);
   
     
-    document.getElementById('exampleInputname').value = '';
-    document.getElementById('exampleInputnumber').value = '';
+    document.getElementById('name').value = '';
+    document.getElementById('phone').value = '';
+    document.getElementById('dob').value = '';
+
   });
- 
+  

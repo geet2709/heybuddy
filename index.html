@@ -28,7 +28,7 @@
       <div class="col child2">
         <div class="inner_child2 container">
           <div class="div1 space">
-            <img src="./twitterlogo.png" alt="error" height="50px" width="50px">
+            <img src="./twitterlogo.png" alt="error" height="42px" width="46px">
           </div>
           <div class="div2 space">
             <span>
@@ -63,52 +63,47 @@
                 <btn>
             </div>
             <div class="innerdiv41 signup " style="padding-left: 6px;">
-              <btn class="new innerdiv41 modal-dialog-centered" id="signup" data-toggle="modal" data-target="#form">
+              <btn class="new innerdiv41 modal-dialog-centered" id="signup" data-toggle="modal"
+                data-target="#form">
                 Sign up with phone or email
+                </btn>
+                
                 <div class="modal" id="form">
-                  <label for="signin" class="formhead gap">sign up</label> <br>
-                  <img src="./twitterlogo.png" alt="" height="40px" width="40px" class="img">
-                  <h1 class="gap">Create an account</h1>
+                <label for="signin" class="formhead" style="padding-left: 4%;">Sign up</label>
+
+                  <img src="./twitterlogo.png" alt="" height="30px" width="30px">
+
+                  <h3 style="padding-left: 4%;">Create an account</h3>
+
                   <div class="main">
                     <form class="innermain">
-
 
 
                       <div class="mb-3">
                         <label for="name" class="name">
 
                         </label>
-                        <input type="name" placeholder="Name" class="form-control" id="exampleInputname"
+                        <input type="name" placeholder="Name" class="form-control" id="name"
                           aria-describedby="name">
-                        <label for="name" class="name">
+                          <label for="name" class="name">
 
-                        </label>
-                        <input type="tel" placeholder="Phone number" class="form-control" id="exampleInputnumber"
-                          aria-describedby="number">
+                          </label>
+                          <input type="tel" placeholder="Phone number" class="form-control" id="phone"
+                            aria-describedby="number">
 
-                        <!-- <div class="mb-3">
-                          <label for="ph_number" class="form-label">Password</label>
-                          <input type="number"  id="ph_number" placeholder="Phone number">
-                        </div> -->
+                        
                         <div class="mb-3 form-check">
-
+                          
                         </div>
-                        <a href="." style="text-decoration: none;">Use email</a>
+                        <div id="emailHelp" class="form-text">Lorem ipsum dolserunt account
+                          quis repellat quae?</div>
+                          <a href="." style="text-decoration: none;font-size: 15px;">Use email</a> <br>
+                          <h5>Date of Birth</h5>
+                          <input type="date" name="" id="dob" >
                       </div>
+                      <button type="submit" class="btn btn-primary btn1" onclick="next()" id="next" >Next</button>
 
-                      <h5>
-                        Date of Birth
-                      </h5>
-                      <div id="text" class="form-text">Lorem ipsum dolor, sit amet
-                        Sit, saepe nemo quis laboriosam velit e Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
-                        sit amet. adipisicing elit. Quibusdam, ad. </div>
-                        <br>
-                       
-                      <input type="date" name="dob" id="dob"> <br>
-                   <br>
-                      <button type="submit" onclick="next()" class="btn btn-primary btn1">next</button>
-
-
+                     
                     </form>
                   </div>
                 </div>
